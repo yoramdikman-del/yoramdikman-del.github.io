@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>myripo – ציוד נבדק, בעברית</title>
+<meta name="description" content="myripo: חנויות ציוד נבדק ומסודר בעברית. ציוד צילום, ציוד לקמפינג ולטיולים, מחנויות רשמיות ומוכרים אמינים.">
+<link rel="icon" href="/photo-store/logo.png">
+<style>
+:root{--paper:#f7f5f0;--ink:#1d2433;--soft:#5b6272;--card:#fff;--line:#e4e0d6;--accent:#e08a2c}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#15181f;--ink:#eceae4;--soft:#a3a8b4;--card:#1e222b;--line:#2c313c}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:"Rubik","Segoe UI",Arial,sans-serif;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+main{max-width:880px;margin:0 auto;padding:56px 16px 32px;flex:1}
+h1{font-size:clamp(2.2rem,6vw,3.2rem);letter-spacing:.5px;direction:ltr;text-align:right}
+h1 b{color:var(--accent)}
+.tag{font-size:1.15rem;color:var(--soft);margin:6px 0 36px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+a.card{display:flex;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;text-decoration:none;color:inherit;transition:transform .15s,box-shadow .15s}
+a.card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+a.card img{width:76px;height:76px;border-radius:16px;flex:none;object-fit:cover}
+a.card h2{font-size:1.2rem}
+a.card p{color:var(--soft);font-size:.95rem}
+.soon{opacity:.55;pointer-events:none}
+.note{margin-top:36px;color:var(--soft);font-size:.92rem}
+footer{text-align:center;color:var(--soft);font-size:.85rem;padding:20px 16px}
+</style>
+</head>
+<body>
+<main>
+  <h1>my<b>ripo</b></h1>
+  <p class="tag">ציוד נבדק ומסודר בעברית, מחנויות רשמיות ומוכרים אמינים.</p>
+  <div class="grid">
+    <a class="card" href="/photo-store/">
+      <img src="/photo-store/logo.png" alt="צילום בכל גיל">
+      <div><h2>צילום בכל גיל</h2><p>ציוד צילום למצלמה ולטלפון: תאורה, חצובות, תיקים, סוללות וצילום מוצרים.</p></div>
+    </a>
+    <a class="card" href="/camping-store/">
+      <img src="/camping-store/logo.png" alt="מוצרים לקמפינג וטיולים">
+      <div><h2>מוצרים לקמפינג וטיולים</h2><p>שינה בשטח, אוהלים, בישול, תאורה ותרמילים, מהמותגים המוכרים.</p></div>
+    </a>
+  </div>
+  <p class="note">חלק מהקישורים באתרים הם קישורי שותפים: אם תקנו דרכם נקבל עמלה קטנה, בלי עלות נוספת לכם.</p>
+</main>
+<footer>myripo.com</footer>
+</body>
+</html>
